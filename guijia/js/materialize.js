@@ -7400,7 +7400,7 @@ DatePicker.defaults = (function( prefix ) {
         labelYearSelect: 'Select a year',
 
         // Months and weekdays
-        monthsFull: [ 'January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December' ],
+        monthsFull: [ '1月', '2月', '3月', '4月', '5月', '6月', '7月', '8月', '9月', '10月', '11月', '12月' ],
         monthsShort: [ 'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec' ],
         weekdaysFull: [ 'Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday' ],
         weekdaysShort: [ 'Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat' ],
@@ -7409,9 +7409,9 @@ DatePicker.defaults = (function( prefix ) {
         weekdaysLetter: [ 'S', 'M', 'T', 'W', 'T', 'F', 'S' ],
 
         // Today and clear
-        today: 'Today',
-        clear: 'Clear',
-        close: 'Close',
+        today: '今天',
+        clear: '清除',
+        close: '关闭',
 
         // The format to show on the `input` element
         format: 'd mmmm, yyyy',

@@ -6,3 +6,7 @@
 body > div.container{
     border: 20px;
 }
+.more{
+    font-size: medium;
+    float: right;
+}

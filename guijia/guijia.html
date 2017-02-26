@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.cnpmjs.org/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
@@ -13,7 +14,7 @@
 <body>
 <nav>
     <div class="nav-wrapper container">
-        <a href="#" class="brand-logo">归家网</a>
+        <a href="#" class="brand-logo"><i class="material-icons">error_outline</i>归家网</a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a href="#">照片识别</a></li>
             <li><a href="#">紧急发布</a></li>
@@ -22,30 +23,286 @@
         </ul>
     </div>
 </nav>
+<div class="container">
+    <h4><i class="material-icons">error_outline</i>紧急发布<span><a href="#" class="more">更多</a></span></h4>
+    <div class="divider"></div>
+    <div class="row">
+        <div class="col s12 m6 l3">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light"><img class="activator"
+                                                                                  src="http://materializecss.com/images/office.jpg">
+                </div>
+                <div class="card-content"><span class="card-title activator grey-text text-darken-4">Card Title<i
+                        class="material-icons right">more_vert</i></span>
+                    <p><a href="#">查看详情</a></p></div>
+                <div class="card-reveal"><span class="card-title grey-text text-darken-4">Card Title<i
+                        class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p></div>
+            </div>
+        </div>
+        <div class="col s12 m6 l3">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light"><img class="activator"
+                                                                                  src="http://materializecss.com/images/office.jpg">
+                </div>
+                <div class="card-content"><span class="card-title activator grey-text text-darken-4">Card Title<i
+                        class="material-icons right">more_vert</i></span>
+                    <p><a href="#">查看详情</a></p></div>
+                <div class="card-reveal"><span class="card-title grey-text text-darken-4">Card Title<i
+                        class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p></div>
+            </div>
+        </div>
+        <div class="col s12 m6 l3">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light">
+                    <img class="activator" src="http://materializecss.com/images/office.jpg">
+                </div>
+                <div class="card-content"><span class="card-title activator grey-text text-darken-4">Card Title<i
+                        class="material-icons right">more_vert</i></span>
+                    <p><a href="#">查看详情</a></p></div>
+                <div class="card-reveal"><span class="card-title grey-text text-darken-4">Card Title<i
+                        class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p></div>
+            </div>
+        </div>
+        <div class="col s12 m6 l3">
+            <div class="card">
+                <div class="card-image waves-effect waves-block waves-light"><img class="activator"
+                                                                                  src="http://materializecss.com/images/office.jpg">
+                </div>
+                <div class="card-content"><span class="card-title activator grey-text text-darken-4">Card Title<i
+                        class="material-icons right">more_vert</i></span>
+                    <p><a href="#">查看详情</a></p></div>
+                <div class="card-reveal"><span class="card-title grey-text text-darken-4">Card Title<i
+                        class="material-icons right">close</i></span>
+                    <p>Here is some more information about this product that is only revealed once clicked on.</p></div>
+            </div>
+        </div>
+    </div>
+    <div class="divider"></div>
+    <h4><i class="material-icons">photo_library</i>疑似照片在线识别<span><a href="#" class="more">更多</a></span></h4>
+    <div class="card">
+        <div class="card-content">
+            <p>可以通过归家网公众号，或是网页，将您拍摄的疑似走失人员的正脸照片上传，我们将对其与数据库中的走失人员照片进行比对，并返回相似度。</p>
+        </div>
+        <div class="card-tabs">
+            <ul class="tabs tabs-fixed-width">
+                <li class="tab"><a href="#test4">公众号</a></li>
+                <li class="tab"><a class="active" href="#test5">网页</a></li>
+            </ul>
+        </div>
+        <div class="card-content grey lighten-4">
+            <div id="test4"><img class="activator" src="http://materializecss.com/images/office.jpg"></div>
+            <div id="test5"><img class="activator" src="http://materializecss.com/images/office.jpg"></div>
+        </div>
+    </div>
+    <div class="divider"></div>
+    <h4><i class="material-icons">assistant</i>帮助我们</h4>
+    <div class="card">
+        <div class="card-content">
+            <p>我们刚刚起步，非常渴望大家的帮助。您可以通过下面几种方式帮助我们</p>
+        </div>
+        <div class="card-tabs">
+            <ul class="tabs tabs-fixed-width">
+                <li class="tab"><a href="#help1" class="active">公众号</a></li>
+                <li class="tab"><a href="#help2">小额捐助</a></li>
+                <li class="tab"><a href="#help3">志愿者</a></li>
+            </ul>
+        </div>
+        <div class="card-content grey lighten-4">
+            <div id="help1"><img class="responsive-img" src="imgs/QR.jpg"></div>
+            <div id="help2">
+                <div class="row">
 
+                    <div class="col s12 m6 l4 offset-l2">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="imgs/doanteWechat.png">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">通过微信捐赠<i
+                                        class="material-icons right">more_vert</i></span>
+                                <p>网站为个人公益性质，没有任何资金来源支付成本.您的捐赠将被用来建设归家网，帮助更多人回家</p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">通过微信捐赠<i class="material-icons right">close</i></span>
+                                <p>网站为个人公益性质，没有任何资金来源支付成本.您的捐赠将被用来建设归家网，帮助更多人回家</p>
+                                <p>
+                                    您一笔五毛钱的捐款可以：
+                                </p>
+                                <ul class="collection">
+                                    <li class="collection-item">
+                                        租用服务器15小时
+                                    </li>
+                                    <li class="collection-item">
+                                        租用域名3天
+                                    </li>
+                                    <li class="collection-item">
+                                        为比对数据库增加1000条记录
+                                    </li>
 
-<div class="carousel carousel-slider center" data-indicators="true">
-    <div class="carousel-fixed-item center">
-        <a class="btn waves-effect white grey-text darken-text-2">button</a>
-    </div>
-    <div class="carousel-item red white-text" href="#one!">
-        <h2>First Panel</h2>
+                                    <li class="collection-item">
+                                        调用人脸比对接口1000次
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col s12 m6 l4">
+                        <div class="card">
+                            <div class="card-image waves-effect waves-block waves-light">
+                                <img class="activator" src="imgs/doanteAli.jpg">
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator grey-text text-darken-4">通过支付宝捐赠<i
+                                        class="material-icons right">more_vert</i></span>
+                                <p>网站为个人公益性质，没有任何资金来源支付成本.您的捐赠将被用来建设归家网，帮助更多人回家</p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">通过支付宝捐赠<i class="material-icons right">close</i></span>
+                                <p>网站为个人公益性质，没有任何资金来源支付成本.您的捐赠将被用来建设归家网，帮助更多人回家</p>
+                                <p>
+                                    您一笔五毛钱的捐款可以：
+                                </p>
+                                <ul class="collection">
+                                    <li class="collection-item">
+                                        租用服务器15小时
+                                    </li>
+                                    <li class="collection-item">
+                                        租用域名3天
+                                    </li>
+                                    <li class="collection-item">
+                                        为比对数据库增加1000条记录
+                                    </li>
 
-        <p class="white-text">This is your first panel</p>
-    </div>
-    <div class="carousel-item amber white-text" href="#two!">
-        <h2>Second Panel</h2>
-        <p class="white-text">This is your second panel</p>
-    </div>
-    <div class="carousel-item green white-text" href="#three!">
-        <h2>Third Panel</h2>
-        <p class="white-text">This is your third panel</p>
-    </div>
-    <div class="carousel-item blue white-text" href="#four!">
-        <h2>Fourth Panel</h2>
-        <p class="white-text">This is your fourth panel</p>
-    </div>
+                                    <li class="collection-item">
+                                        调用人脸比对接口1000次
+                                    </li>
+                                </ul>
 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="help3"><img class="responsive-img" src="imgs/QR.jpgimgs/QR.jpg"></div>
+        </div>
+    </div>
+    <div class="divider"></div>
+    <h4><i class="material-icons">sentiment_very_satisfied</i>发布信息<span><p class="more">详情</p></span></h4>
+    <div class="card">
+        <div class="card-content">
+            <p>您可以发布走失信息，我们人工审核后将把您的信息录入数据库并发布，让更多人帮助您找回家人</p>
+            <ul class="collapsible" data-collapsible="accordion">
+                <li>
+                    <div class="collapsible-header"><i class="material-icons right">menu</i>发布信息</div>
+                    <div class="collapsible-body">
+                        <form class="col s12">
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <input id="name" type="text" class="validate">
+                                    <label for="name">姓名</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <select id="gender" name="gender">
+                                        <option value="" disabled selected>选择性别</option>
+                                        <option value="male">男</option>
+                                        <option value="female">女</option>
+                                    </select>
+                                    <label for="gender">性别</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <label for="birthday">生日</label>
+                                    <input id="birthday" type="date" class="datepicker">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <label for="lost_date">走失日期</label>
+                                    <input id="lost_date" type="date" class="datepicker">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s2 m2 l2">
+                                    <input id="home_loc_province" type="text" class="validate">
+
+                                    <label for="home_loc_province">户籍地 省</label>
+                                </div>
+                                <div class="input-field col s2 m2 l2">
+                                    <input id="home_loc_city" type="text" class="validate">
+
+                                    <label for="home_loc_city">市</label>
+                                </div>
+                                <div class="input-field col s2 m2 l2">
+                                    <input id="home_loc_town" type="text" class="validate">
+
+                                    <label for="home_loc_town">区县街道</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s2 m2 l2">
+                                    <input id="lost_loc_province" type="text" class="validate">
+
+                                    <label for="lost_loc_province">走失地 省</label>
+                                </div>
+                                <div class="input-field col s2 m2 l2">
+                                    <input id="lost_loc_city" type="text" class="validate">
+
+                                    <label for="lost_loc_city">市</label>
+                                </div>
+                                <div class="input-field col s2 m2 l2">
+                                    <input id="lost_loc_town" type="text" class="validate">
+
+                                    <label for="lost_loc_town">区县街道</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <label>身高（厘米）</label><br>
+                                    <p class="range-field">
+                                        <input type="range" id="height" min="10" max="250" class="validate"/>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="input-field col s6">
+                                    <textarea id="comment" class="materialize-textarea"></textarea>
+                                    <label for="comment">描述</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="file-field input-field col s6">
+                                    <div class="btn">
+                                        <span>File</span>
+                                        <input type="file" id="image">
+                                    </div>
+                                    <div class="file-path-wrapper ">
+                                        <input class="file-path validate" type="text">
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <button class="btn waves-effect waves-light" type="submit" name="action">发布信息
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="divider"></div>
+    <h4><i class="material-icons">sentiment_very_satisfied</i>夕阳徽章<span><p class="more">更多</p></span></h4>
+    <div class="card">
+        <div class="card-content">
+            <p>待开发.....</p>
+        </div>
+    </div>
 </div>
 
 <footer class="page-footer">
@@ -61,6 +318,9 @@
                 </p>
                 <p class="grey-text text-lighten-4">
                     》小额捐助
+                </p>
+                <p class="grey-text text-lighten-4">
+                    》作为志愿者
                 </p>
             </div>
             <div class="col l4 offset-l2 s12">
